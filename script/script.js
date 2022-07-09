@@ -13,6 +13,6 @@ setInterval(function() {
     screenHeight = window.innerHeight;
     screenWidth = window.innerWidth;
     
-    spanHeight.innerText = screenHeight;
-    spanWidth.innerText = screenWidth;
+    spanHeight.innerText = 'h: ' + screenHeight + ' px';
+    spanWidth.innerText = 'w: ' + screenWidth + ' px';
 }, 100);

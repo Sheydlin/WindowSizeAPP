@@ -71,9 +71,49 @@ input, button, textarea, select {
     text-align: center;
     font-weight: 600;
     font-size: 70px;
+    margin: 0px 15px;
 }
 
 .app__value {
     font-weight: 600;
     font-size: 46px;
+}
+
+@media(max-width: 500px) {
+    .app__value {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 400px) {
+    .app__text {
+        text-align: center;
+        font-weight: 600;
+        font-size: 50px;
+        margin: 0px 15px;
+    }
+    
+    .app__value {
+        font-weight: 600;
+        font-size: 26px;
+    }
+}
+
+@media(max-height: 400px) {
+    .app__text {
+        text-align: center;
+        font-weight: 600;
+        font-size: 50px;
+        margin: 0px 15px;
+        line-height: 60px;
+    }
+    
+    .app__value {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 27px;
+    }
 }
